@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.LienHeActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarLienHe"
+        android:background="#5ED642"
+        app:title="Địa Chỉ"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"/>
+    <LinearLayout
+
+        android:background="@drawable/hinhen1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:background="@drawable/boder"
+            android:layout_margin="30dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:drawableLeft="@drawable/shop"
+                android:gravity="center"
+                android:layout_margin="0dp"
+                android:textColor="#7215A5"
+                android:text="Địa chỉ: 331, Quốc lộ 1A, Q. 12, Tp. Hồ Chí Minh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@drawable/boder"
+            android:layout_margin="30dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+                <TextView
+                    android:drawableLeft="@drawable/diachi"
+                    android:gravity="center"
+                    android:layout_margin="10dp"
+                    android:textColor="#7215A5"
+                    android:text="Địa chỉ: 300A Nguyễn Tăt Thành, Phường An Phú Đông, Quận 12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
